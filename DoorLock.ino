@@ -1,8 +1,8 @@
 #include <SoftwareSerial.h> // for GSM and Bluetooth Serial communication Library
 #include <LiquidCrystal.h> // includes the LiquidCrystal Library 
 #include <Keypad.h> // includes the Keypad Library 
-#include "libraries/SIM900/SIM900.h" //calling the sim900.h library script so we can use the function there
-#include "libraries/SIM900/sms.h" // SMS library
+#include "src/SIM900.h" //calling the sim900.h library script so we can use the function there
+#include "src/sms.h" // SMS library
 
 SMSGSM sms;// this is naming the gsm for sms function
 
